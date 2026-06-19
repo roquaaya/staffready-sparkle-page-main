@@ -23,8 +23,8 @@ import {
 } from "lucide-react";
 import { set } from "date-fns";
 
-const logo = "/images/logo.jpg";
-const heroBg = "/images/bus9.jpg";
+const logo = "images/logo.jpg";
+const heroBg = "images/bus9.jpg";
 
 const WHATSAPP_NUMBER = "+201116226300";
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, "")}`;
@@ -94,42 +94,42 @@ const myServices = [
 
 const fleetImages = [
   { 
-    src: "/images/bus1.jpg", 
+    src: "images/bus1.jpg", 
     name: { ar: "حافلة سياحية فاخرة", en: "Luxury Tourism Bus" }, 
     desc: { ar: "حافلة مجهزة بأعلى معايير الراحة والرفاهية لرحلاتكم السياحية.", en: "A bus equipped with the highest standards of comfort and luxury for your tourist trips." } 
   },
   { 
-    src: "/images/bus2.jpg", 
+    src: "images/bus2.jpg", 
     name: { ar: "حافلة عصرية", en: "Modern Coach" }, 
     desc: { ar: "تصميم حديث يجمع بين الأناقة والأمان في كل تنقلاتكم.", en: "Modern design combining elegance and safety in all your movements." } 
   },
   { 
-    src: "/images/bus3.jpg", 
+    src: "images/bus3.jpg", 
     name: { ar: "ميني فان مميز", en: "Premium Minivan" }, 
     desc: { ar: "مثالية للمجموعات الصغيرة، توفر مساحة واسعة وخدمة متميزة.", en: "Ideal for small groups, offering ample space and premium service." } 
   },
   { 
-    src: "/images/bus4.jpg", 
+    src: "images/bus4.jpg", 
     name: { ar: "حافلة النقل المؤسسي", en: "Corporate Transport" }, 
     desc: { ar: "الحل الأمثل لنقل الموظفين والوفود في مواعيد دقيقة.", en: "The perfect solution for transporting employees and delegations on time." } 
   },
   { 
-    src: "/images/bus6.jpg", 
+    src: "images/bus6.jpg", 
     name: { ar: "حافلة للرحلات السياحية", en: "Tourism Trips" }, 
     desc: { ar: "رحلات سياحية ممتعة مع حافلات مجهزة بكل وسائل الترفيه.", en: "Enjoyable tourist trips with buses equipped with all entertainment amenities." } 
   },
   { 
-    src: "/images/bus7.jpg", 
+    src: "images/bus7.jpg", 
     name: { ar: "أسطول النقل الفاخر", en: "Luxury Fleet" }, 
     desc: { ar: "نقدم لكم تجربة نقل فاخرة تليق بتطلعاتكم واحتياجاتكم.", en: "We offer a luxurious transport experience that matches your expectations." } 
   },
   { 
-    src: "/images/bus8.jpg", 
+    src: "images/bus8.jpg", 
     name: { ar: "أسطول حديث", en: "Modern Fleet" }, 
     desc: { ar: "أحدث طرازات الحافلات لضمان تجربة نقل متطورة وآمنة.", en: "The latest bus models to ensure an advanced and safe transport experience." } 
   },
   { 
-    src: "/images/bus9.jpg", 
+    src: "images/bus9.jpg", 
     name: { ar: "نقل آمن", en: "Safe Transport" }, 
     desc: { ar: "سلامتكم أولويتنا القصوى مع سائقين محترفين وحافلات معقمة.", en: "Your safety is our top priority with professional drivers and sterilized buses." } 
   }
@@ -137,15 +137,15 @@ const fleetImages = [
 
 
 const luxuryFleetImages = [
-  { src: "/images/car1.jpg", name: { ar: "هيونداي فان عائلية", en: "Hyundai Family Van" }, desc: { ar: "استمتع بمساحة رحبة تتسع لجميع أفراد العائلة، مع نظام تكييف مركزي يضمن أجواءً منعشة وراحة لا تُضاهى في الرحلات الطويلة.", en: "Enjoy spacious seating for the whole family, with a central AC system ensuring refreshing comfort on long trips." } },
-  { src: "/images/car2.jpg", name: { ar: "هيونداي توسان", en: "Hyundai Tucson" }, desc: { ar: "تجمع هذه السيارة بين الأناقة العصرية والرفاهية العالية، ومجهزة بأنظمة تكييف ذكية تمنحك تحكماً كاملاً لضمان برودة مثالية في كل ركن.", en: "Combining modern elegance with superior luxury, equipped with smart cooling systems for perfect cabin temperature." } },
-  { src: "/images/car3.jpg", name: { ar: "كيا سبورتاج", en: "Kia Sportage" }, desc: { ar: "تصميم جريء يخطف الأنظار مع مقصورة داخلية مبردة بالكامل، مصممة خصيصاً لتوفير أعلى مستويات الراحة والاسترخاء أثناء تنقلك.", en: "Bold, eye-catching design with a fully climate-controlled cabin, specifically crafted for ultimate relaxation." } },
-  { src: "/images/car4.jpg", name: { ar: "كيا سبورتاج", en: "Kia Sportage" }, desc: { ar: "اختيار مثالي لمحبي القيادة السلسة؛ توفر تجربة تنقل استثنائية مع نظام تبريد فائق السرعة يتحدى حرارة الصيف القاسية بكل كفاءة.", en: "The perfect choice for smooth driving, offering an exceptional experience with a high-performance AC system." } },
-  { src: "/images/car5.jpg", name: { ar: "أسطول تويوتا الفاخر", en: "Toyota Elite Fleet" }, desc: { ar: "نخبة من سيارات تويوتا التي تعكس معايير الجودة العالمية، مجهزة بأنظمة تبريد وتكييف متطورة تضمن لك تجربة سفر هادئة ومنعشة.", en: "Elite Toyota vehicles reflecting global quality standards, featuring advanced climate control for a peaceful, refreshing journey." } },
-  { src: "/images/car6.jpg", name: { ar: "تويوتا كورولا", en: "Toyota Corolla" }, desc: { ar: "تجمع بين الاعتمادية العالية واللمسات الفاخرة، مع نظام تكييف قوي يضمن توزيعاً متوازناً للهواء البارد لجميع الركاب داخل المقصورة.", en: "Combining reliability with luxury touches, featuring a powerful AC system that ensures balanced airflow for all passengers." } },
-  { src: "/images/car7.jpg", name: { ar: "تويوتا فورتشنر", en: "Toyota Fortuner" }, desc: { ar: "سيارة قوية تتحمل أصعب الطرق، مع مقصورة داخلية واسعة ونظام تكييف متكامل يغطي جميع المقاعد لضمان رفاهية مطلقة لجميع المسافرين.", en: "A powerful vehicle for tough roads, featuring a spacious interior and a comprehensive AC system covering all seats." } },
-  { src: "/images/car8.jpg", name: { ar: "هيونداي توسان بيضاء", en: "White Hyundai Tucson" }, desc: { ar: "إطلالة بيضاء مميزة تعبر عن الرقي، مع تجهيزات داخلية مريحة ونظام تكييف فائق القوة يجعلك في واحة من البرودة وسط حرارة الصيف.", en: "Distinctive white elegance reflecting sophistication, with comfort features and a powerful AC to keep you cool." } },
-  { src: "/images/car10.jpg", name: { ar: "هيونداي توسان داكنة", en: "Dark Hyundai Tucson" }, desc: { ar: "تصميم عصري وجذاب يجمع بين الجرأة والفخامة، مع تكنولوجيا تبريد فورية تمنحك انتعاشاً دائماً بمجرد ركوبك للسيارة.", en: "Modern, attractive design combining boldness with luxury, featuring instant cooling technology for constant freshness." } },
+  { src: "images/car1.jpg", name: { ar: "هيونداي فان عائلية", en: "Hyundai Family Van" }, desc: { ar: "استمتع بمساحة رحبة تتسع لجميع أفراد العائلة، مع نظام تكييف مركزي يضمن أجواءً منعشة وراحة لا تُضاهى في الرحلات الطويلة.", en: "Enjoy spacious seating for the whole family, with a central AC system ensuring refreshing comfort on long trips." } },
+  { src: "images/car2.jpg", name: { ar: "هيونداي توسان", en: "Hyundai Tucson" }, desc: { ar: "تجمع هذه السيارة بين الأناقة العصرية والرفاهية العالية، ومجهزة بأنظمة تكييف ذكية تمنحك تحكماً كاملاً لضمان برودة مثالية في كل ركن.", en: "Combining modern elegance with superior luxury, equipped with smart cooling systems for perfect cabin temperature." } },
+  { src: "images/car3.jpg", name: { ar: "كيا سبورتاج", en: "Kia Sportage" }, desc: { ar: "تصميم جريء يخطف الأنظار مع مقصورة داخلية مبردة بالكامل، مصممة خصيصاً لتوفير أعلى مستويات الراحة والاسترخاء أثناء تنقلك.", en: "Bold, eye-catching design with a fully climate-controlled cabin, specifically crafted for ultimate relaxation." } },
+  { src: "images/car4.jpg", name: { ar: "كيا سبورتاج", en: "Kia Sportage" }, desc: { ar: "اختيار مثالي لمحبي القيادة السلسة؛ توفر تجربة تنقل استثنائية مع نظام تبريد فائق السرعة يتحدى حرارة الصيف القاسية بكل كفاءة.", en: "The perfect choice for smooth driving, offering an exceptional experience with a high-performance AC system." } },
+  { src: "images/car5.jpg", name: { ar: "أسطول تويوتا الفاخر", en: "Toyota Elite Fleet" }, desc: { ar: "نخبة من سيارات تويوتا التي تعكس معايير الجودة العالمية، مجهزة بأنظمة تبريد وتكييف متطورة تضمن لك تجربة سفر هادئة ومنعشة.", en: "Elite Toyota vehicles reflecting global quality standards, featuring advanced climate control for a peaceful, refreshing journey." } },
+  { src: "images/car6.jpg", name: { ar: "تويوتا كورولا", en: "Toyota Corolla" }, desc: { ar: "تجمع بين الاعتمادية العالية واللمسات الفاخرة، مع نظام تكييف قوي يضمن توزيعاً متوازناً للهواء البارد لجميع الركاب داخل المقصورة.", en: "Combining reliability with luxury touches, featuring a powerful AC system that ensures balanced airflow for all passengers." } },
+  { src: "images/car7.jpg", name: { ar: "تويوتا فورتشنر", en: "Toyota Fortuner" }, desc: { ar: "سيارة قوية تتحمل أصعب الطرق، مع مقصورة داخلية واسعة ونظام تكييف متكامل يغطي جميع المقاعد لضمان رفاهية مطلقة لجميع المسافرين.", en: "A powerful vehicle for tough roads, featuring a spacious interior and a comprehensive AC system covering all seats." } },
+  { src: "images/car8.jpg", name: { ar: "هيونداي توسان بيضاء", en: "White Hyundai Tucson" }, desc: { ar: "إطلالة بيضاء مميزة تعبر عن الرقي، مع تجهيزات داخلية مريحة ونظام تكييف فائق القوة يجعلك في واحة من البرودة وسط حرارة الصيف.", en: "Distinctive white elegance reflecting sophistication, with comfort features and a powerful AC to keep you cool." } },
+  { src: "images/car10.jpg", name: { ar: "هيونداي توسان داكنة", en: "Dark Hyundai Tucson" }, desc: { ar: "تصميم عصري وجذاب يجمع بين الجرأة والفخامة، مع تكنولوجيا تبريد فورية تمنحك انتعاشاً دائماً بمجرد ركوبك للسيارة.", en: "Modern, attractive design combining boldness with luxury, featuring instant cooling technology for constant freshness." } },
 ];
 
 
@@ -203,7 +203,7 @@ interface Client {
 const CLIENTS: Client[] = [
   { 
     name: "شركة تبكو (TEPCO)", 
-    logo: "/images/tepco.jpg", 
+    logo: "images/tepco.jpg", 
     feedback: { 
       ar: "نحن سعداء جداً بمستوى الخدمة الاحترافية التي قدمتها شركة Staff Ready. كانوا حريصين على أدق التفاصيل في النقل والتنظيم، مما جعل تجربة العمل معهم مريحة ومثمرة للغاية. نوصي بهم بشدة لكل من يبحث عن الجودة والدقة.", 
       en: "We are extremely satisfied with the professional service provided by Staff Ready. They were meticulous in every detail regarding transportation and coordination, making our collaboration comfortable and highly productive. We highly recommend them to anyone seeking quality and precision." 
@@ -211,7 +211,7 @@ const CLIENTS: Client[] = [
   },
   { 
     name: "مدرسة الفسيلة الإسلامية", 
-    logo: "/images/fis.jpg", 
+    logo: "images/fis.jpg", 
     feedback: { 
       ar: "كان التعاون مع فريق Staff Ready تجربة استثنائية بكل المقاييس. التزامهم بالمواعيد والاحترافية في التعامل جعلنا نعتمد عليهم كشريك أساسي في جميع رحلاتنا وتنقلاتنا. شكراً لفريق العمل المتميز على جهودهم الدائمة.", 
       en: "Collaborating with the Staff Ready team was an exceptional experience by all standards. Their commitment to punctuality and professional conduct has made them our go-to partner for all our trips and logistics. Thanks to the dedicated team for their constant efforts." 
@@ -219,7 +219,7 @@ const CLIENTS: Client[] = [
   },
   { 
     name: "مدرسة غرين هيلز", 
-    logo: "/images/Gh.jpg", 
+    logo: "images/Gh.jpg", 
     feedback: { 
       ar: "أكثر ما يميز Staff Ready هو المرونة في التعامل والقدرة على إدارة الأزمات بذكاء. لقد وفروا لنا تغطية كاملة واحترافية لم نكن لنجدها في مكان آخر. تجربة عمل نفخر بها ونتطلع لاستمرارها لسنوات قادمة.", 
       en: "What sets Staff Ready apart is their flexibility and their ability to handle crises intelligently. They provided us with comprehensive and professional coverage that we couldn't find anywhere else. We are proud of this partnership and look forward to continuing it for years to come." 
@@ -227,7 +227,7 @@ const CLIENTS: Client[] = [
   },
   { 
     name: "مدرسة العظمة (Greatness)", 
-    logo: "/images/Gls.jpg", 
+    logo: "images/Gls.jpg", 
     feedback: { 
       ar: "الاحترافية التي لمسناها في Staff Ready تجاوزت توقعاتنا. فريق العمل يتمتع بخبرة واسعة وأدوات متطورة تجعل عملية النقل والخدمات اللوجستية تمر بسلاسة تامة. شكراً لكم على هذا المستوى المشرف من الخدمات.", 
       en: "The professionalism we experienced at Staff Ready exceeded our expectations. The team possesses vast experience and advanced tools that make transportation and logistics run seamlessly. Thank you for this commendable level of service." 
@@ -235,7 +235,7 @@ const CLIENTS: Client[] = [
   },
   { 
     name: "مجموعة داود (DAOUD)", 
-    logo: "/images/DAOUD.jpg", 
+    logo: "images/DAOUD.jpg", 
     feedback: { 
       ar: "لا نتردد أبداً في ترشيح Staff Ready لأي جهة تطلب خدمات النقل السياحي واللوجستي. الخدمة دائماً في موعدها، والمركبات مجهزة على أعلى مستوى، والأهم من ذلك هو التعامل الراقي من قبل السائقين وفريق الدعم.", 
       en: "We never hesitate to recommend Staff Ready to any entity looking for tourism and logistics services. The service is always on time, vehicles are equipped to the highest standard, and most importantly, the interaction from the drivers and the support team is top-notch." 
@@ -243,7 +243,7 @@ const CLIENTS: Client[] = [
   },
   { 
     name: "شركة ناسيتا (NACITA)", 
-    logo: "/images/Ncls.jpg", 
+    logo: "images/Ncls.jpg", 
     feedback: { 
       ar: "لقد كانت تجربة عمل ناجحة وموفقة جداً. Staff Ready أثبتوا أنهم ليسوا مجرد مقدم خدمة، بل شركاء نجاح يهتمون بتقديم أفضل النتائج لعملائهم. الالتزام والجودة هي العنوان الحقيقي لتعاملاتهم معنا.", 
       en: "It has been a very successful and rewarding business experience. Staff Ready have proven they are not just a service provider, but partners in success who care about delivering the best results for their clients. Commitment and quality are the true hallmarks of their dealings with us." 
@@ -251,7 +251,7 @@ const CLIENTS: Client[] = [
   },
   { 
     name: "شركة النصر للمرافق", 
-    logo: "/images/EL NASR.jpg", 
+    logo: "images/EL NASR.jpg", 
     feedback: { 
       ar: "شكراً على الدعم المستمر والحلول اللوجستية الذكية التي قدمتموها. التعامل معكم اتسم بالوضوح والشفافية التامة، وهو ما نبحث عنه دائماً في أي شراكة عمل. نبارك لكم هذا المستوى المتميز.",
       en: "Thank you for the continuous support and the smart logistical solutions you provided. Dealing with you has been characterized by clarity and total transparency, which is what we always look for in any business partnership. We congratulate you on this outstanding level." 
@@ -349,7 +349,7 @@ const CONTACT_PERSONS = [
           >
             <div className="relative h-12 md:h-14 w-12 md:w-14 rounded-2xl overflow-hidden bg-white ring-1 ring-primary/30 shadow-md shadow-primary/20 transition-shadow duration-300 group-hover:shadow-xl group-hover:shadow-primary/40">
               <img 
-  src="/images/logo.jpg" 
+  src="images/logo.jpg" 
   alt="STAFF READY logo" 
   className="h-full w-full object-contain" 
   loading="eager" 
@@ -666,7 +666,7 @@ whileHover={{ scale: 1.15 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
       className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border border-white/10 group cursor-pointer"
     >
-      <img src="/images/bus7.jpg" alt="Staff Ready Fleet" className="w-full h-full object-cover" />
+      <img src="images/bus7.jpg" alt="Staff Ready Fleet" className="w-full h-full object-cover" />
       {/* الطبقة السوداء تظهر عند الهوفر أو الضغط */}
       <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-40 group-active:opacity-40" />
     </motion.div>
@@ -819,7 +819,7 @@ className="flex items-center justify-center gap-3 p-4 rounded-2xl border border-
 <footer className="border-t border-border">
         <div className="mx-auto max-w-7xl px-5 py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
-            <img src="/images/logo.jpg" alt="STAFF READY" className="h-7 w-7 object-contain rounded" />
+            <img src="images/logo.jpg" alt="STAFF READY" className="h-7 w-7 object-contain rounded" />
             <span className="font-semibold text-foreground">STAFF READY</span>
           </div>
           <div>© {new Date().getFullYear()} كل الحقوق محفوظة</div>
