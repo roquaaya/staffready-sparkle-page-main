@@ -9,8 +9,8 @@
     "file": "assets/styles-DJ1kqQba.css",
     "src": "C:/Users/Genius/Desktop/شغل شركه نقل وسياحه/staffready-sparkle-page-main/src/styles.css"
   },
-  "_worker-entry-DI7MDA63.js": {
-    "file": "assets/worker-entry-DI7MDA63.js",
+  "_worker-entry-CLRLvOKc.js": {
+    "file": "assets/worker-entry-CLRLvOKc.js",
     "name": "worker-entry",
     "dynamicImports": [
       "tanstack-start-manifest:v",
@@ -26,12 +26,12 @@
     "isDynamicEntry": true
   },
   "src/router.tsx": {
-    "file": "assets/router-DXhsnsL9.js",
+    "file": "assets/router-DTETFB2i.js",
     "name": "router",
     "src": "src/router.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_worker-entry-DI7MDA63.js"
+      "_worker-entry-CLRLvOKc.js"
     ],
     "dynamicImports": [
       "src/routes/index.tsx?tsr-split=component"
@@ -41,16 +41,16 @@
     ]
   },
   "src/routes/index.tsx?tsr-split=component": {
-    "file": "assets/index-CvG7_IMb.js",
+    "file": "assets/index-B8V0ldjb.js",
     "name": "index",
     "src": "src/routes/index.tsx?tsr-split=component",
     "isDynamicEntry": true,
     "imports": [
-      "_worker-entry-DI7MDA63.js"
+      "_worker-entry-CLRLvOKc.js"
     ]
   },
   "tanstack-start-manifest:v": {
-    "file": "assets/_tanstack-start-manifest_v-D9l3si15.js",
+    "file": "assets/_tanstack-start-manifest_v-Bdc-9CyZ.js",
     "name": "_tanstack-start-manifest_v",
     "src": "tanstack-start-manifest:v",
     "isDynamicEntry": true
@@ -61,7 +61,7 @@
     "src": "virtual:cloudflare/worker-entry",
     "isEntry": true,
     "imports": [
-      "_worker-entry-DI7MDA63.js"
+      "_worker-entry-CLRLvOKc.js"
     ]
   }
 }
